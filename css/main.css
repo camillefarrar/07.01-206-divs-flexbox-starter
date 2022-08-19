@@ -102,14 +102,16 @@ html {
 }
 
 body {
+  background-color: #f16059;
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  padding: 10vh 5% 20vh;
   font-size: 1.25em;
   height: 100%;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
+  background-color: #f16059;
   display: flex;
   font-weight: 700;
   justify-content: space-between;
@@ -117,15 +119,20 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  align-items: center;
-  background-color: #f16059;
+  align-items: flex-start;
   color: #fff;
   display: flex;
   font-size: 1.6em;
   justify-content: center;
-  height: 300px;
   line-height: 1.5em;
-  width: 30%;
+  padding: 20px;
+  width: 33.33%;
+}
+
+.div-1, .div-2 {
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 0 1px 0 0;
 }
 
 
